@@ -1,41 +1,4 @@
 
-//нужно
-/*
-//txTransparentBlt(txDC(), 900, 550, 19, 19,coin , 0, 0, TX_WHITE);
-
-txSetFillColor(RGB(21,21,21));
-txRectangle(950,850,0,0);
-
-txSetColor(RGB(255,242,0));
-
-sprintf(str, "X = %d", hero.x);
-txTextOut(50,50,str);
-sprintf(str, "Y = %d", hero.y);
-txTextOut(50,75,str);
-
- char str[100];
-
- COLORREF color = txGetPixel (0,0,0);
-
- COLORREF color = txGetPixel (255,216,8);
-
-
-txSetColor(TX_WHITE,5);
-txSetFillColor(TX_BLACK);
-
-int  hero.x=0;
-int  hero.y=0;
-int  hero.vx=10;
-int  hero.vy=10;
-
-int y=0;
-int x=0;
-int vx=10;
-int vy=10;
-
-HDC labEnd= txLoadImage("\картинки\лабиринты и прочие фотки к начальному проекту/лабиринт конечный.bmp");
-HDC labEnter= txLoadImage("\картинки\лабиринты и прочие фотки к начальному проекту/переходный.bmp");
-*/
 
 #include "TXLib.h"
 struct mainMan
